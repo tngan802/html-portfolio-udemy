@@ -1,0 +1,30 @@
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+
+/*This is Todo 1*/
+p{
+    color: red;
+}
+
+/*This is Todo 2*/
+.note{
+    font-size: 20px;
+}
+
+/*This is Todo 3*/
+#id-selector-demo{
+    color:green;
+}
+
+/*This is Todo 4*/
+li[value="4"]{
+    color: blue;
+}
+
+/*This is Todo 5*/
+*{
+    text-align: center;
+}
