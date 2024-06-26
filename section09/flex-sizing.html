@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Sizing</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+        }
+
+        .container > p{
+            border: solid black 3px;
+            flex-basis: 100px;
+            /* min-width: 300px; */ 
+            /* max-width: 100px; */
+            /* flex-grow: 0;
+            flex-shrink: 1; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact Us</p>
+        <p>The Best Programming School in the World</p>
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact Us</p>
+    </div>
+
+    <p>
+        If you have a min-width greater than the flex-basis or a max-width smaller than the flex-basis, the width of the HTML element/item will be determined by the min-width or max-width rule</p>
+        <p>flex-grow allows the flex items to increase in size until it fills the full container width if a flex-basis is set</p>
+        <p>flex-shrink allows the flex items to decrease in size (if the window shrinks) if a flex-basis is set</p>
+        <p>Shorthand for writing flex is the following: flex: x y z where x is grow, y is shrink, and z is basis</p>
+</body>
